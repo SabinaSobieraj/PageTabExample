@@ -1,0 +1,50 @@
+.intro p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.information--info-knowledge h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 150px;
+    line-height: 40px;
+    color: #ebebeb;
+    padding-top: 67px;
+}
+
+.information--info-knowledge h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 48px;
+    line-height: 40px;
+    color: black;
+    padding-left: 85px;
+    padding-bottom: 40px;
+}
+
+.information--toDownload-text h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 48px;
+    color: white;
+}
+
+.information--toDownload-text h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 36px;
+    line-height: 48px;
+    color: white;
+    padding-bottom: 20px;
+}
+
+summary h5 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 48px;
+
+}

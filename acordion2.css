@@ -1,0 +1,92 @@
+.information--info {
+    width: 100%;
+    position: relative;
+}
+
+
+
+/* Accordion styles */
+
+
+.tab {
+    /*width: 100%;*/
+    /*position: relative;*/
+    color: black;
+    overflow: hidden;
+}
+input {
+    opacity: 0;
+    z-index: -1;
+}
+
+.tab-label {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    background: white;
+    font-weight: bold;
+    cursor: pointer;
+    /* Icon */
+}
+.tab-label:hover {
+    background: #ebebeb;
+}
+
+.tab-label::after {
+    content: "\276F";
+    width: 1em;
+    height: 1em;
+    text-align: center;
+    transition: all 0.35s;
+
+}
+.tab-content {
+    max-height: 0;
+    padding: 0 1em;
+    color: black;
+    background: #ebebeb;
+    transition: all 0.35s;
+}
+/*.tab-close {*/
+/*    display: flex;*/
+/*    justify-content: flex-end;*/
+/*    padding: 1em;*/
+/*    font-size: 0.75em;*/
+/*    background: #ebebeb;*/
+/*    cursor: pointer;*/
+/*}*/
+/*.tab-close:hover {*/
+
+/*    background: #1a252f;*/
+/*}*/
+input:checked + .tab-label {
+    background: #ebebeb;
+}
+input:checked + .tab-label::after {
+    transform: rotate(90deg);
+
+}
+input:checked ~ .tab-content {
+    /*width: 1000px;*/
+    /*background-position-y: 0px;*/
+    /*display: inline-block;*/
+    /*position: absolute;*/
+    width: 200%;
+
+        /*z-index: -1;*/
+        /*width: calc(100% + 100%);*/
+        /*background: grey;*/
+        /*position: absolute;*/
+        /*left: -500px;*/
+    padding: 1em;
+}
+
+/*.grey {*/
+/*    z-index: -1;*/
+/*    width: calc(100% + 100%);*/
+/*    height: 40px;*/
+/*    background: grey;*/
+/*    position: absolute;*/
+/*    left: -500px;*/
+
+/*}*/
